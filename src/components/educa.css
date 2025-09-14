@@ -1,0 +1,151 @@
+.education-journey {
+  font-family: 'Arial', sans-serif;
+  margin-top: -20px;
+  text-align: center;
+  padding: 2rem;
+  height: 50vh;
+}
+
+.education-heading {
+  font-size:2rem;
+  color: #333;
+  margin-bottom: 60px;
+  letter-spacing: 2px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+}
+
+.night-mode .education-heading{
+  color: white;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.night-mode .circle{
+  color: rgb(38, 37, 37);
+}
+
+.circle.active {
+  background-color: #f39c12;
+  transform: scale(1.1);
+}
+
+.details-box {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+.night-mode .details-box{
+  background-color:rgb(57, 54, 54);
+  box-shadow: 0 4px 4px  #1b1a1a;
+}
+
+.details-box h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.night-mode .details-box h3{
+  color: #fffcfc;
+}
+
+.details-box .role,
+.details-box .duration,
+.details-box .gpa {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #555 ;
+  margin: 5px 0;
+}
+
+
+
+
+.night-mode .details-box .role,
+.night-mode .details-box .duration,
+.night-mode .details-box .gpa {
+  color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+  .education-heading {
+    font-size: 1.6rem;
+    margin-top: 30px;
+  }
+  .circle-container{
+    margin-top: -10px;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+    font-size: 1rem;
+  }
+
+  .details-box {
+    width: 90%; 
+    padding: 15px;
+  }
+
+  .details-box h3 {
+    font-size: 1.2rem;
+  }
+
+  .details-box .role,
+  .details-box .duration,
+  .details-box .gpa {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .education-heading{
+    margin-bottom: 30px;
+  }
+  .circle-container {
+    margin-top: 40px;
+    flex-direction: row;
+  }
+
+  .circle {
+    width: 90px;
+    height: 78px;
+    font-size: 1rem;
+  }
+  
+  .details-box{
+    margin-top: 40px;
+  }
+
+  .details-box h3 {
+    font-size: 1rem;
+  }
+}

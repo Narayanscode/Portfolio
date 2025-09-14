@@ -1,0 +1,47 @@
+
+.combined-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem; 
+    padding: 2rem;
+    flex-wrap: wrap; 
+    box-sizing: border-box; 
+    
+  
+  }
+  
+  .education-container,
+  .profiles-container {
+    flex: 1 1 45%;
+    box-sizing: border-box;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .combined-container {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 5rem;
+      padding: 1rem; 
+    }
+  
+    .education-container,
+    .profiles-container {
+      flex: 1 1 100%; 
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-height:700px) {
+    .combined-container{
+      gap: 15rem;
+    }
+  }
+
+  @media screen and (max-height:400px){
+    .combined-container{
+      gap: 20rem;
+    }
+    
+  }
+  
