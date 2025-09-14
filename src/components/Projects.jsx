@@ -11,16 +11,16 @@ import pro6 from '../assets/pro6.png'
 const projectsData = [
   
     
-  {
+ {
     title: "Portfolio Website",
-    technologies: ["React JS","HTML", "CSS","JSX"],
-    description: "A sleek and responsive portfolio app designed with React JS, ensuring seamless compatibility across all devices. It's a perfect showcase of my projects and skills, offering an intuitive and visually appealing experience.",
-    githubLink: "hhttps://github.com/SamiKhaji/Portfolio",
-    deploymentLink: "https://samikhaji.github.io/Portfolio/",
+    technologies: ["React JS", "HTML", "CSS", "JSX"],
+    description: "A sleek and responsive portfolio website built with React JS, showcasing my projects, skills, and experiences. It is optimized for all devices, offering a smooth and engaging user experience.",
+    githubLink: "https://github.com/Narayanscode/Portfolio",
+    deploymentLink: "https://narayanscode.github.io/Portfolio/",
     status: "Completed",
-    image:pro6,
-  },
-  
+    image: pro6,
+}
+
   
 ];
 
