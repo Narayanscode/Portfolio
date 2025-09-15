@@ -12,7 +12,7 @@ export default function Contact({isNightMode}) {
           method="POST"
           className="contact-form"
         >
-          <input type="hidden" name="_next" value="https://samikhaji.github.io/Portfolio/" />
+          <input type="hidden" name="_next" value="https://narayanscode.github.io/Portfolio/" />
           <input
             type="text"
             name="name"

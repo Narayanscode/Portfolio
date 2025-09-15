@@ -1,4 +1,4 @@
-import myPic from "../assets/narayan.png";
+import myPic from "../assets/narayan.jpg";
 import "./home.css";
 import React, { useState, useEffect } from "react";
 
@@ -13,7 +13,10 @@ export default function Home({ isNightMode }) {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
   const scrollToContact = () => {
-    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   useEffect(() => {
@@ -33,14 +36,18 @@ export default function Home({ isNightMode }) {
       clearInterval(interval);
       window.removeEventListener("resize", handleResize);
     };
-  }, [texts]);
+  }, []);
 
   const handleResumeClick = () => {
-    window.open("https://your-resume-link.com");
+    // 👉 Replace this link with your actual resume link (Google Drive / GitHub / PDF)
+    window.open("https://your-resume-link.com", "_blank");
   };
 
   return (
-    <main id="home" className={`home ${isNightMode ? "night-mode" : "day-mode"}`}>
+    <main
+      id="home"
+      className={`home ${isNightMode ? "night-mode" : "day-mode"}`}
+    >
       <div className={`home-container ${isMobile ? "mobile" : ""}`}>
         <div className="profile-pic">
           <img src={myPic} alt="Narayan Sharma" />
@@ -53,14 +60,17 @@ export default function Home({ isNightMode }) {
           </h1>
           <h2 className="aboutme">
             I am Narayan Sharma, a passionate Software Engineer in the making
-            with interests in AI, Web Development, and building creative projects.
+            with interests in AI, Web Development, and building creative
+            projects.
           </h2>
 
           <div className="buttons">
             <button className="quote-btn" onClick={handleResumeClick}>
               View My Resume
             </button>
-            <button className="quote-btn" onClick={scrollToContact}>Connect</button>
+            <button className="quote-btn" onClick={scrollToContact}>
+              Connect
+            </button>
           </div>
         </section>
       </div>
