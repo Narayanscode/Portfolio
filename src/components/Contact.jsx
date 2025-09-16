@@ -39,7 +39,7 @@ export default function Contact({isNightMode}) {
           <p>Feel free to reach out to me through:</p>
           <div className="contact-icons">
             <a
-              href="mailto:narayanshrma455@gmail.com"
+              href="mailto:gopichandan555@gmail.com"
               className="contact-icon"
               title="Email Me"
             >
