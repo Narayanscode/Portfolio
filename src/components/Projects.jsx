@@ -7,6 +7,7 @@ import { faCheckCircle, faSpinner } from '@fortawesome/free-solid-svg-icons';
 import gfgLogo from '../assets/gfgLogo.png';
 
 import pro6 from '../assets/pro6.png';
+import healthAiAssistant from '../assets/healthAiAssistant.png';
 
 const projectsData = [
   {
@@ -18,6 +19,16 @@ const projectsData = [
     deploymentLink: "https://narayanscode.github.io/Portfolio/",
     status: "Completed",
     image: pro6,
+  },
+  {
+    title: "Health Assistant AI 🏥🤖",
+    technologies: ["Next.js 15", "TypeScript", "Firebase", "Google Gemini", "Tailwind CSS", "Shadcn/UI"],
+    description:
+      "Military-grade secure AI-powered personal health assistant built with Next.js 15, Firebase, and Google Gemini. Features context-aware chatbot, symptom analyzer, medical report analysis, medication scheduling, and health dashboard with strict data isolation and Google-only authentication.",
+    githubLink: "https://github.com/Narayanscode/Health-Ai-Assistant-",
+    deploymentLink: "https://health-assistant-ai-ashen.vercel.app/",
+    status: "Completed",
+    image: healthAiAssistant,
   },
 ];
 

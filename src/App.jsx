@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Home from './components/Home';
 import CombinedComponent from './components/CombinedComponent';
 import Projects from './components/Projects';
+import Certifications from './components/Certifications';
 import './App.css';
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material'; // Import MUI ThemeProvider
 import Skills from './components/Skills';
@@ -49,6 +50,7 @@ function App() {
         <Home isNightMode={isNightMode}/>
         <CombinedComponent isNightMode={isNightMode}/>
         <Skills isNightMode={isNightMode}/>
+        <Certifications isNightMode={isNightMode}/>
         <Projects isNightMode={isNightMode}/>
         <Contact  isNightMode={isNightMode}/>
       </div>
