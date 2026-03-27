@@ -12,50 +12,50 @@ import cert6 from '../assets/certificate6.jpeg';
 
 const certificationsData = [
   {
-    title: "HCL GUVI Certification",
-    issuer: "HCL GUVI",
+    title: "Certificate of Participation - Byte Quest AI Coding Challenge",
+    issuer: " Byte Quest",
     date: "10 January, 2026",
-    description: "Certificate of Participation for completing the GUVI webinar on building a travel booking platform using React.",
+    description: "Certificate of Participation for participating 24 hours hackathon of Byte Quest - AI Coding challenge.",
     image: cert1,
     credential: "#"
   },
   {
-    title: "HCL GUVI Advanced Certification",
-    issuer: "HCL GUVI",
-    date: "09 January, 2026",
-    description: "Certification of Participation for completing the GUVI webinar on leveling up your career with Generative AI.",
+    title: "Certificate of completion - GEN AI NASSCOM",
+    issuer: "BY GOVT OF INDIA / NASSCOM",
+    date: "09 February, 2026",
+    description: "Certificate of completion - GEN AI NASSCOM course under the Skill Development Program ",
     image: cert2,
     credential: "#"
   },
   {
-    title: "Course Completion Certificate",
-    issuer: "Pankaj Kumar SEO / Zooptriq AI",
-    date: "18 January, 2026",
-    description: "Certificate of Completion for the AI-based SEO masterclass.",
+    title: "Getting Started with Artificial Intelligence",
+    issuer: "IBM SKILLSBUILD",
+    date: "21 February, 2025",
+    description: "Certificate of completion - Getting Started with Artificial Intelligence course offered by IBM SkillsBuild, covering AI fundamentals, applications, and ethical considerations.",
     image: cert3,
     credential: "#"
   },
   {
-    title: "Certificate 4",
-    issuer: "Your Institute",
-    date: "2026",
-    description: "Custom certificate from the fourth achievement set.",
+    title: "MYSQL Bootcamp ",
+    issuer: "LETS UPGRADE",
+    date: "21 April,2025",
+    description: "MySQL Bootcamp - Comprehensive training on MySQL database management",
     image: cert4,
     credential: "#"
   },
   {
-    title: "Certificate 5",
-    issuer: "Your Institute",
-    date: "2026",
-    description: "Custom certificate from the fifth achievement set.",
+    title: "Course Completion Certificate - Introduction to Prompt Engineering",
+    issuer: "BY IBM /EDX",
+    date: "25 April,2024",
+    description: "Course Completion Certificate - Introduction to Prompt Engineering Offered by IBM",
     image: cert5,
     credential: "#"
   },
   {
-    title: "Certificate 6",
-    issuer: "Your Institute",
-    date: "2026",
-    description: "Custom certificate from the sixth achievement set.",
+    title: "Course Completion Certificate - Excel for Beginners",
+    issuer: "DavidsonX / EDX",
+    date: "25 April,2024",
+    description: "Course Completion Certificate - Excel for Beginners Offered by DavidsonX , an online learning initiative of Davidson College",
     image: cert6,
     credential: "#"
   },
